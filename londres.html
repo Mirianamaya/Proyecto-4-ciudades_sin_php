@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tres ciudades</title>
+   <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <nav>
+        <h1>TRES CIUDADES</h1>
+        <div id="nav_inf">
+            <ul>
+                <li>
+                    <a href="index.html">INICIO</a>
+                </li>
+                <li>
+                    <a href="paris.html">PARIS</a>
+                </li>
+                <li>
+                    <a href="londres.html">LONDRES</a>
+                </li>
+                <li>
+                    <a href="madrid.html">MADRID</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+    
+    <main>
+        <section>
+            <h2>LONDRES</h2>
+            <article>
+                <h3>-Extensión y población-</h3>
+                <p>La población de Londres es de lo más variopinta. De hecho, es muy fácil reconocer a los españoles en la muchedumbre. Sólo tienes que buscar al grupo de paspanes que van vestidos de forma aburrida y que han salido duchados y peinados por la mañana. Si van de colorinchis y tienen los pelos alborotados es casi seguro que no serán español@s, salvo que lleven ya unos años viviendo allí.</p>
+                <img src="./assets/img/londres01.jpg" alt="">
+                
+            </article>
+            <article>
+                <h3>-Información turística-</h3>
+                <p>Ten por seguro que no te vas a aburrir en Londres. Es más, la recomendación es no agobiarse por intentar verlo todo en un fin de semana o volverás frustrado. Hay que planificar y priorizar lo que se quiere hacer con cierta antelación; y ser muy consciente de que con un culo no se pueden sentar dos asientos así que si te metes en un espectáculo no planifiques estar a la misma hora subido al bus turístico que recorrre la ciudad. </p>
+                <img src="./assets/img/londres02.jpg" alt="">
+                
+            </article>
+        </section>
+        <!-- Form contacto -->
+        <section id="sect_form">
+            <h2 class="oculto">Contacta con nosotros</h2>
+            <article>
+                <form action="./php/enviar.php" method="post">
+                    <h3>Contacta con nosotros</h3>
+                    <input type="text" name="nombre" placeholder="Nombre *" required>
+                    <input type="tel" name="telefono" placeholder="Teléfono *" required>
+                    <input type="email" name="email" placeholder="Email">
+                    <textarea name="mensaje" placeholder="Escribe aquí tu mensaje"></textarea>
+                    <input type="submit" value="Enviar" id="boton">
+                </form>
+            </article>
+        </section>
+    <footer>
+        <p>Copyright MAGP</p>
+    </footer>    
+</body>
+</html>

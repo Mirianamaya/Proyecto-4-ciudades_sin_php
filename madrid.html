@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tres ciudades</title>
+   <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <nav>
+        <h1>TRES CIUDADES</h1>
+        <div id="nav_inf">
+            <ul>
+                <li>
+                    <a href="index.html">INICIO</a>
+                </li>
+                <li>
+                    <a href="paris.html">PARIS</a>
+                </li>
+                <li>
+                    <a href="londres.html">LONDRES</a>
+                </li>
+                <li>
+                    <a href="madrid.html">MADRID</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+    
+    <main>
+        <section>
+            <h2>MADRID</h2>
+            <article>
+                <h3>-Población-</h3>
+                <p>La población de Madrid ha experimentado un fuerte incremento desde que decidieron un grupo de idiotas que cuanto más juntos permanecieran más podían aparentar que eran algo sin que su triste existencia pasara inadvertida.</p>
+                <img src="./assets/img/madrid01.jpg" alt="">
+                
+            </article>
+            <article>
+                <h3>-Climatología-</h3>
+                <p>Aprox. 3/4 partes del año hace un calor axfisiante en Madrid. El resto del año hace un frío del carajo, pero no suele importar porque hay siempre tanta gente en todas partes que es difícil pasar frío. Llover, lo que se dice, llover, descuida que no lo verás en Madrid, salvo las 4 gotas necesarias para enguarrarte el coche. Por lo demás, una ciudad espectacular.</p>
+                <img src="./assets/img/madrid02.jpg" alt="">
+                
+            </article>
+        </section>
+        <!-- Form contacto -->
+        <section id="sect_form">
+            <h2 class="oculto">Contacta con nosotros</h2>
+            <article>
+                <form action="./php/enviar.php" method="post">
+                    <h3>Contacta con nosotros</h3>
+                    <input type="text" name="nombre" placeholder="Nombre *" required>
+                    <input type="tel" name="telefono" placeholder="Teléfono *" required>
+                    <input type="email" name="email" placeholder="Email">
+                    <textarea name="mensaje" placeholder="Escribe aquí tu mensaje"></textarea>
+                    <input type="submit" value="Enviar" id="boton">
+                </form>
+            </article>
+        </section>
+    <footer>
+        <p>Copyright MAGP</p>
+    </footer>    
+</body>
+</html>

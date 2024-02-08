@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tres ciudades</title>
+   <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <nav>
+        <h1>TRES CIUDADES</h1>
+        <div id="nav_inf">
+            <ul>
+                <li>
+                    <a href="index.html">INICIO</a>
+                </li>
+                <li>
+                    <a href="paris.html">PARIS</a>
+                </li>
+                <li>
+                    <a href="londres.html">LONDRES</a>
+                </li>
+                <li>
+                    <a href="madrid.html">MADRID</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+    
+    <main>
+        <section>
+            <h2>PARÍS</h2>
+            <article>
+                <h3>-Sociedad-</h3>
+                <p>Actualmente más de la mitad de la población menor de 15 años tiene ascendencia extranjera; en particular de origen magrebí y de las ex-colonias francesas de Africa subsahariana.</p>
+                <img src="./assets/img/paris01.jpg" alt="">
+                
+            </article>
+            <article>
+                <h3>-Exposiciones universales-</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt consequatur saepe esse fugiat excepturi tempora labore ipsa voluptates officiis architecto animi expedita quisquam doloremque explicabo illo delectus placeat, laborum beatae?
+                Pariatur quam ut exercitationem deserunt, quisquam doloribus accusamus id facere perspiciatis sint architecto. Officiis quos sed voluptatem molestiae similique. Exercitationem optio molestias aperiam ex mollitia id nulla quam inventore eos!
+                Vero praesentium nemo distinctio culpa itaque quos consequuntur! Dolore molestias excepturi at quos hic velit, quod aliquid earum harum fuga necessitatibus beatae, quae, a pariatur iusto ratione aliquam aut. Asperiores?</p>
+                <img src="./assets/img/paris02.jpg" alt="">
+                
+            </article>
+        </section>
+        <!-- Form contacto -->
+        <section id="sect_form">
+            <h2 class="oculto">Contacta con nosotros</h2>
+            <article>
+                <form action="./php/enviar.php" method="post">
+                    <h3>Contacta con nosotros</h3>
+                    <input type="text" name="nombre" placeholder="Nombre *" required>
+                    <input type="tel" name="telefono" placeholder="Teléfono *" required>
+                    <input type="email" name="email" placeholder="Email">
+                    <textarea name="mensaje" placeholder="Escribe aquí tu mensaje"></textarea>
+                    <input type="submit" value="Enviar" id="boton">
+                </form>
+            </article>
+        </section>
+    <footer>
+        <p>Copyright MAGP</p>
+    </footer>    
+</body>
+</html>
